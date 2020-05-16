@@ -87,7 +87,7 @@ class App extends Component {
 						{/* The TodoList page as a component */}
 						<Route
 							exact
-							path='/React-TodoList'
+							path='/'
 							render={(props) => (
 								<React.Fragment>
 									<AddTodo addTodo={this.addTodo} />
@@ -105,7 +105,7 @@ class App extends Component {
 						/>
 
 						{/* The About page as a component */}
-						<Route path='/React-TodoList/about' component={About} />
+						<Route path='/about' component={About} />
 					</div>
 				</div>
 			</Router>

@@ -6,11 +6,11 @@ function Header() {
 		<header style={headerStyle}>
 			<h1>TodoList</h1>
 			{/* Like an <a href='/'></a> */}
-			<Link style={linkStyle} to='/React-TodoList'>
+			<Link style={linkStyle} to='/'>
 				Home
 			</Link>{' '}
 			|{' '}
-			<Link style={linkStyle} to='/React-TodoList/about'>
+			<Link style={linkStyle} to='/about'>
 				About
 			</Link>
 		</header>
